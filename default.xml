@@ -19,7 +19,7 @@
   <project path="manifest" name="uber-manifest" />
   <project path="binutils/binutils-2.25" name="binutils" revision="2.25" />
   <project path="binutils/binutils-2.26" name="binutils" revision="2.25" />
-  <project path="binutils/binutils-linaro" name="binutils.git" revision="linaro_binutils-2_25-branch" remote="linaro" />
+  <project path="binutils/binutils-linaro" name="binutils-gdb.git" revision="linaro_binutils-2_25-branch" remote="linaro" />
   <project path="build" name="build" remote="hyper" />
   <project path="cloog/cloog-uber" name="cloog" revision="uber" />
   <project path="cloog/cloog-uber/isl" name="isl" revision="uber" />
