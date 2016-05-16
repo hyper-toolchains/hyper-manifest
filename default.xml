@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="hyper"
+           fetch="https://github.com/hyper-toolchains/" />
+  <remote  name="uu"
+           fetch="https://github.com/UBERTC/" />
+  <remote  name="smhub"
+           fetch="https://github.com/BenzoSM/" />
+  <remote  name="linaro"
+           fetch="https://git.linaro.org/toolchain/" />
+  <remote  name="linaro-aosp"
+           fetch="https://android-git.linaro.org/toolchain/" />
+  <default revision="master"
+           remote="uu"
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
+
+  <project path="manifest" name="uber-manifest" />
+  <project path="binutils/binutils-2.25" name="binutils" revision="2.25" />
+  <project path="binutils/binutils-2.26" name="binutils" revision="2.25" />
+  <project path="binutils/binutils-linaro" name="binutils.git" revision="linaro_binutils-2_25-branch" remote="linaro" />
+  <project path="build" name="build" remote="hyper" />
+  <project path="cloog/cloog-uber" name="cloog" revision="uber" />
+  <project path="cloog/cloog-uber/isl" name="isl" revision="uber" />
+  <project path="cloog/cloog-uber/osl" name="osl" revision="uber" />
+  <project path="cloog/cloog-saber" name="cloog.git" revision="0.18.4" remote="smhub" />
+  <project path="cloog/cloog-saber/isl" name="isl.git" revision="master" remote="smhub" />
+  <project path="cloog/cloog-linaro" name="cloog.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="cloog/cloog-linaro/isl" name="isl.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="isl/isl-uber" name="isl" revision="uber" />
+  <project path="isl/isl-saber" name="isl.git" revision="0.16.1" remote="smhub" />
+  <project path="isl/isl-linaro" name="isl.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="gcc/gcc-UBER-4.9" name="GCC-UBER" revision="uber-4.9" />
+  <project path="gcc/gcc-UBER-5.x" name="GCC-UBER" revision="uber-5.3" />
+  <project path="gcc/gcc-UBER-6.x" name="GCC-UBER" revision="uber-6.0" />
+  <project path="gcc/gcc-UBER-7.x" name="GCC-UBER" revision="uber-7.0" />
+  <project path="gcc/gcc-SaberMod-4.9" name="GCC_SaberMod" remote="smhub" revision="4.9.4" />
+  <project path="gcc/gcc-SaberMod-5.x" name="GCC_SaberMod" remote="smhub" revision="5.3.0" />
+  <project path="gcc/gcc-SaberMod-6.x" name="GCC_SaberMod" remote="smhub" revision="6.0.0" />
+  <project path="gcc/gcc-SaberMod-7.x" name="GCC_SaberMod" remote="smhub" revision="7.0.0" />
+  <project path="gcc/gcc-Linaro-4.9" name="gcc.git" remote="linaro" revision="linaro/gcc-4_9-branch" />
+  <project path="gcc/gcc-Linaro-5.x" name="gcc.git" remote="linaro" revision="linaro/gcc-5-branch" />
+  <project path="gcc/gcc-Linaro-6.x" name="gcc.git" remote="linaro" revision="linaro/gcc-6-branch" />
+  <project path="gmp/gmp-uber" name="gmp" revision="uber" />
+  <project path="gmp/gmp-saber" name="gmp.git"  remote="smhub" />
+  <project path="gmp/gmp-linaro" name="gmp.git"  revision="linaro-master" remote="linaro-aosp" />
+  <project path="mpc/mpc-uber" name="mpc" revision="uber" />
+  <project path="mpc/mpc-saber" name="mpc.git"  remote="smhub" />
+  <project path="mpc/mpc-linaro" name="mpc.git"  revision="linaro-master" remote="linaro-aosp" />
+  <project path="mpfr/mpfr-uber" name="mpfr" revision="uber" />
+  <project path="mpfr/mpfr-saber" name="mpfr.git" remote="smhub" />
+  <project path="mpfr/mpfr-linaro" name="mpfr.git" revision="linaro-master" remote="linaro-asop" />
+  <project path="sysroot" name="sysroot" revision="gcc-4.9" />
+  <project path="prebuilts" name="prebuilts.git" remote="smhub" />
+</manifest>
