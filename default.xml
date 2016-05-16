@@ -50,7 +50,7 @@
   <project path="mpc/mpc-linaro" name="mpc.git"  revision="linaro-master" remote="linaro-aosp" />
   <project path="mpfr/mpfr-uber" name="mpfr" revision="uber" />
   <project path="mpfr/mpfr-saber" name="mpfr.git" remote="smhub" />
-  <project path="mpfr/mpfr-linaro" name="mpfr.git" revision="linaro-master" remote="linaro-asop" />
+  <project path="mpfr/mpfr-linaro" name="mpfr.git" revision="linaro-master" remote="linaro-aosp" />
   <project path="sysroot/4.9" name="sysroot" revision="gcc-4.9" />
   <project path="sysroot/5.x" name="sysroot" revision="gcc-5.3" />
   <project path="sysroot/6.x" name="sysroot" revision="gcc-6.0" />
