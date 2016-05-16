@@ -9,7 +9,7 @@
   <remote  name="linaro"
            fetch="https://git.linaro.org/toolchain/" />
   <remote  name="linaro-aosp"
-           fetch="https://android-git.linaro.org/toolchain/" />
+           fetch="https://android-git.linaro.org/git/toolchain/" />
   <default revision="master"
            remote="uu"
            sync-j="4"
