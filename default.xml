@@ -10,6 +10,8 @@
            fetch="https://git.linaro.org/toolchain/" />
   <remote  name="linaro-aosp"
            fetch="https://android-git.linaro.org/git/toolchain/" />
+  <remote  name="repo"
+           fetch="http://repo.or.cz/" />
   <default revision="master"
            remote="uu"
            sync-j="4"
@@ -27,11 +29,10 @@
   <project path="cloog/cloog-SaberMod" name="cloog.git" revision="0.18.4" remote="smhub" />
   <project path="cloog/cloog-SaberMod/isl" name="isl.git" revision="master" remote="smhub" />
   <project path="cloog/cloog-Linaro" name="cloog.git" revision="linaro-master" remote="linaro-aosp" />
-  <project path="cloog/cloog-Linaro/isl" name="isl.git" revision="linaro-master" remote="linaro-aosp" />
   <project path="hyper-scripts" name="hyper-scripts" remote="hyper" />
   <project path="isl/isl-Uber" name="isl" revision="uber" />
   <project path="isl/isl-SaberMod" name="isl.git" revision="0.16.1" remote="smhub" />
-  <project path="isl/isl-Linaro" name="isl.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="isl/isl-Linaro" name="isl.git" revision="isl-0.15" remote="repo" />
   <project path="gcc/gcc-Uber-4.9" name="GCC-UBER" revision="uber-4.9" />
   <project path="gcc/gcc-Uber-5.x" name="GCC-UBER" revision="uber-5.3" />
   <project path="gcc/gcc-Uber-6.x" name="GCC-UBER" revision="uber-6.0" />
