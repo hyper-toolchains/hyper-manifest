@@ -28,7 +28,7 @@
   <project path="cloog/cloog-Uber/osl" name="osl" revision="uber" />
   <project path="cloog/cloog-SaberMod" name="cloog.git" revision="0.18.4" remote="smhub" />
   <project path="cloog/cloog-SaberMod/isl" name="isl.git" revision="master" remote="smhub" />
-  <project path="cloog/cloog-Linaro" name="cloog.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="cloog/cloog-Linaro" name="cloog.git" revision="Linaro" remote="hyper" />
   <project path="hyper-scripts" name="hyper-scripts" remote="hyper" />
   <project path="isl/isl-Uber" name="isl" revision="uber" />
   <project path="isl/isl-SaberMod" name="isl.git" revision="0.16.1" remote="smhub" />
@@ -46,13 +46,13 @@
   <project path="gcc/gcc-Linaro-6.x" name="gcc.git" remote="linaro" revision="linaro/gcc-6-branch" />
   <project path="gmp/gmp-Uber" name="gmp" revision="uber" />
   <project path="gmp/gmp-SaberMod" name="gmp.git"  remote="smhub" />
-  <project path="gmp/gmp-Linaro" name="gmp.git"  revision="linaro-master" remote="linaro-aosp" />
+  <project path="gmp/gmp-Linaro" name="gmp.git"  revision="Linaro" remote="hyper" />
   <project path="mpc/mpc-Uber" name="mpc" revision="uber" />
   <project path="mpc/mpc-SaberMod" name="mpc.git"  remote="smhub" />
-  <project path="mpc/mpc-Linaro" name="mpc.git"  revision="linaro-master" remote="linaro-aosp" />
+  <project path="mpc/mpc-Linaro" name="mpc.git"  revision="Linaro" remote="hyper" />
   <project path="mpfr/mpfr-Uber" name="mpfr" revision="uber" />
   <project path="mpfr/mpfr-SaberMod" name="mpfr.git" remote="smhub" />
-  <project path="mpfr/mpfr-Linaro" name="mpfr.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="mpfr/mpfr-Linaro" name="mpfr.git" revision="Linaro" remote="hyper" />
   <project path="sysroot/4.9" name="sysroot" revision="gcc-4.9" />
   <project path="sysroot/5.x" name="sysroot" revision="gcc-5.3" />
   <project path="sysroot/6.x" name="sysroot" revision="gcc-6.0" />
