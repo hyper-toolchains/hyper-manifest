@@ -32,7 +32,7 @@
   <project path="hyper-scripts" name="hyper-scripts" remote="hyper" />
   <project path="isl/isl-Uber" name="isl" revision="uber" />
   <project path="isl/isl-SaberMod" name="isl.git" revision="0.16.1" remote="smhub" />
-  <project path="isl/isl-Linaro" name="isl.git" revision="isl-0.15" remote="repo" />
+  <project path="isl/isl-Linaro" name="isl.git" revision="refs/tags/isl-0.15" remote="repo" />
   <project path="gcc/gcc-Uber-4.9" name="GCC-UBER" revision="uber-4.9" />
   <project path="gcc/gcc-Uber-5.x" name="GCC-UBER" revision="uber-5.3" />
   <project path="gcc/gcc-Uber-6.x" name="GCC-UBER" revision="uber-6.0" />
