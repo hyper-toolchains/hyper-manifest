@@ -28,6 +28,7 @@
   <project path="cloog/cloog-SaberMod/isl" name="isl.git" revision="master" remote="smhub" />
   <project path="cloog/cloog-Linaro" name="cloog.git" revision="linaro-master" remote="linaro-aosp" />
   <project path="cloog/cloog-Linaro/isl" name="isl.git" revision="linaro-master" remote="linaro-aosp" />
+  <project path="hyper-scripts" name="hyper-scripts" remote="hyper" />
   <project path="isl/isl-Uber" name="isl" revision="uber" />
   <project path="isl/isl-SaberMod" name="isl.git" revision="0.16.1" remote="smhub" />
   <project path="isl/isl-Linaro" name="isl.git" revision="linaro-master" remote="linaro-aosp" />
