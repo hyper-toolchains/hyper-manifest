@@ -41,7 +41,7 @@
   <project path="gcc/gcc-SaberMod-5.x" name="GCC_SaberMod" remote="smhub" revision="5.3.0" />
   <project path="gcc/gcc-SaberMod-6.x" name="GCC_SaberMod" remote="smhub" revision="6.0.0" />
   <project path="gcc/gcc-SaberMod-7.x" name="GCC_SaberMod" remote="smhub" revision="7.0.0" />
-  <project path="gcc/gcc-Linaro-4.9" name="gcc.git" remote="linaro" revision="linaro/gcc-4_9-branch" />
+  <project path="gcc/gcc-Linaro-4.9" name="gcc.git" remote="hyper" revision="Linaro-4.9" />
   <project path="gcc/gcc-Linaro-5.x" name="gcc.git" remote="linaro" revision="linaro/gcc-5-branch" />
   <project path="gcc/gcc-Linaro-6.x" name="gcc.git" remote="linaro" revision="linaro/gcc-6-branch" />
   <project path="gmp/gmp-Uber" name="gmp" revision="uber" />
