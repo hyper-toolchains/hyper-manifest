@@ -42,7 +42,7 @@
   <project path="gcc/gcc-SaberMod-4.9" name="GCC_SaberMod" remote="smhub" revision="4.9.4" />
   <project path="gcc/gcc-SaberMod-5.x" name="GCC_SaberMod" remote="smhub" revision="5.x" />
   <project path="gcc/gcc-SaberMod-6.x" name="GCC_SaberMod" remote="smhub" revision="6.x" />
-  <project path="gcc/gcc-SaberMod-7.x" name="GCC_SaberMod" remote="smhub" revision="7.0" />
+  <project path="gcc/gcc-SaberMod-7.x" name="GCC_SaberMod" remote="smhub" revision="7.x" />
   <project path="gcc/gcc-Linaro-4.9" name="gcc.git" remote="hyper" revision="Linaro-4.9" />
   <project path="gcc/gcc-Linaro-5.x" name="gcc.git" remote="linaro" revision="linaro/gcc-5-branch" />
   <project path="gcc/gcc-Linaro-6.x" name="gcc.git" remote="linaro" revision="linaro/gcc-6-branch" />
@@ -58,6 +58,6 @@
   <project path="sysroot/4.9" name="sysroot" revision="gcc-4.9" />
   <project path="sysroot/5.x" name="sysroot" revision="gcc-5.x" />
   <project path="sysroot/6.x" name="sysroot" revision="gcc-6.x" />
-  <project path="sysroot/7.x" name="sysroot" revision="gcc-7.x" />
+  <project path="sysroot/7.x" name="sysroot" revision="gcc-7.0" />
   <project path="prebuilts" name="prebuilts" remote="hyper" />
 </manifest>
