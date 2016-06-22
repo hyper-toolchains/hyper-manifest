@@ -36,8 +36,8 @@
   <project path="isl/isl-SaberMod" name="isl" revision="0.16.1" remote="smhub" />
   <project path="isl/isl-Linaro" name="isl" revision="uber" />
   <project path="gcc/gcc-Uber-4.9" name="GCC-UBER" revision="uber-4.9" />
-  <project path="gcc/gcc-Uber-5.x" name="GCC-UBER" revision="uber-5.3" />
-  <project path="gcc/gcc-Uber-6.x" name="GCC-UBER" revision="uber-6.0" />
+  <project path="gcc/gcc-Uber-5.x" name="GCC-UBER" revision="uber-5.x" />
+  <project path="gcc/gcc-Uber-6.x" name="GCC-UBER" revision="uber-6.x" />
   <project path="gcc/gcc-Uber-7.x" name="GCC-UBER" revision="uber-7.0" />
   <project path="gcc/gcc-SaberMod-4.9" name="GCC_SaberMod" remote="smhub" revision="4.9.4" />
   <project path="gcc/gcc-SaberMod-5.x" name="GCC_SaberMod" remote="smhub" revision="5.x" />
