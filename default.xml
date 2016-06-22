@@ -56,8 +56,8 @@
   <project path="mpfr/mpfr-SaberMod" name="mpfr" remote="smhub" />
   <project path="mpfr/mpfr-Linaro" name="mpfr" revision="Linaro" remote="hyper" />
   <project path="sysroot/4.9" name="sysroot" revision="gcc-4.9" />
-  <project path="sysroot/5.x" name="sysroot" revision="gcc-5.3" />
-  <project path="sysroot/6.x" name="sysroot" revision="gcc-6.0" />
-  <project path="sysroot/7.x" name="sysroot" revision="gcc-7.0" />
+  <project path="sysroot/5.x" name="sysroot" revision="gcc-5.x" />
+  <project path="sysroot/6.x" name="sysroot" revision="gcc-6.x" />
+  <project path="sysroot/7.x" name="sysroot" revision="gcc-7.x" />
   <project path="prebuilts" name="prebuilts" remote="hyper" />
 </manifest>
